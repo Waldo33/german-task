@@ -1,0 +1,100 @@
+@font-face {
+  font-family: 'Lato';
+  src: url('fonts/Lato-Medium.eot');
+  src: url('fonts/Lato-Medium.eot?#iefix') format('embedded-opentype'),
+  url('fonts/Lato-Medium.woff2') format('woff2'),
+  url('fonts/Lato-Medium.woff') format('woff'),
+  url('fonts/Lato-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('fonts/Lato-SemiBold.eot');
+  src: url('fonts/Lato-SemiBold.eot?#iefix') format('embedded-opentype'),
+  url('fonts/Lato-SemiBold.woff2') format('woff2'),
+  url('fonts/Lato-SemiBold.woff') format('woff'),
+  url('fonts/Lato-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('fonts/Lato-Regular.eot');
+  src: url('fonts/Lato-Regular.eot?#iefix') format('embedded-opentype'),
+  url('fonts/Lato-Regular.woff2') format('woff2'),
+  url('fonts/Lato-Regular.woff') format('woff'),
+  url('fonts/Lato-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-display: auto;
+  font-family: "Iconly";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./iconly.eot?1661177148540");
+  src: url("./iconly.eot?#iefix") format("embedded-opentype"), url("./iconly.woff2?1661177148540") format("woff2"), url("./iconly.woff?1661177148540") format("woff"), url("./iconly.ttf?1661177148540") format("truetype"), url("./iconly.svg?1661177148540#Iconly") format("svg");
+}
+
+[class="icon"], [class^="icon-"], [class*=" icon-"] {
+  display: inline-block;
+  font-family: "Iconly" !important;
+  font-weight: 400;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+.icon-font-vk:before {
+  content: "\e000";
+}
+
+.icon-font-time:before {
+  content: "\e001";
+  color: #7E9B49;
+}
+
+.icon-font-mail:before {
+  content: "\e002";
+  color: #164194;
+}
+
+.icon-font-location:before {
+  content: "\e003";
+  color: #7E9B49;
+}
+
+.icon-font-insta:before {
+  content: "\e004";
+}
+
+.icon-font-facebook:before {
+  content: "\e005";
+}
+
+.icon-font-call:before {
+  content: "\e006";
+  color: #164194;
+}
+
+.icon-font-arrow:before {
+  content: "\e007";
+}
+
+.icon-arrow-thin:before {
+  content: "\e008";
+}
+
+.icon-arrow-right:before {
+  content: "\e009";
+}
